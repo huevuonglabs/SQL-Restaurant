@@ -6,9 +6,7 @@ This project analyzes restaurant ordering behavior using SQL to understand **men
 
 ---
 
-## ✅ Problem – Approach – Insight – Impact
-
-## 🧩 Problem (Short)
+## 🧩 Business Problem
 
 Restaurant transaction data is only useful if it can answer clear questions like:
 **What sells, what earns the most, and what customers actually order together?**
@@ -229,42 +227,25 @@ ORDER BY order_id, num_items DESC
 
 ---
 
-## 🔍 Insights
-
-This analysis highlights:
-
-* **Menu pricing range** (least vs most expensive items)
-* Category distribution and **average price per category**
-* Total transaction activity:
-
-  * number of **orders**
-  * number of **items sold**
-* The largest orders (high item counts / group orders)
-* **Most ordered vs least ordered items**, including their categories
-* **Top 5 highest-spend orders** and what customers purchased
-* Category patterns inside premium / high-spend orders
-
----
-
 ## 🎯 Impact
 
 This project supports decisions like:
 
-✅ **Menu Engineering**
+**Menu Engineering**
 
 * promote high-demand items
 * identify low-performing dishes for improvement or removal
 
-✅ **Revenue Growth**
+**Revenue Growth**
 
 * understand what drives high-spend orders
 * design bundles and upsells based on purchase patterns
 
-✅ **Operational Planning**
+**Operational Planning**
 
 * spot large orders (12+ items) that affect prep and staffing
 
-✅ **Reusable Reporting**
+**Reusable Reporting**
 
 * provides clean SQL logic that can be adapted into KPI tracking queries
 
